@@ -44,7 +44,7 @@ async function handleSubmit(event: React.FormEvent<HTMLFormElement>) {
 // --- Main Homepage Component ---
 export default function Home() {
   // Simple state for a potential call-to-action button
-  const [ctaText, setCtaText] = useState('Explore ManagerXAI Demo');
+  const [ctaText, setCtaText] = useState('Explore OrgSightXAI Demo');
 
   return (
     <main className="min-h-screen bg-gray-50">
@@ -52,8 +52,11 @@ export default function Home() {
       {/* 1. Hero Section: Mission and CTA */}
       <section className="bg-white py-20 shadow-md">
         <div className="max-w-6xl mx-auto px-4 text-center">
-          <h1 className="text-5xl font-extrabold text-gray-900 mb-4">
-            OrgSightXAI: Smarter Teams Stronger Execution
+        <h1 className="text-5xl font-extrabold text-gray-900 mb-4">
+                OrgSightXAI
+          </h1>
+        <h1 className="text-5xl font-extrabold text-gray-800 mb-4">
+          Smarter Teams Stronger Execution
           </h1>
           <p className="text-xl text-gray-600 mb-8">
             Transforming Team Performance with AI
@@ -61,12 +64,12 @@ export default function Home() {
             Our mission is to surface hidden productivity killers and team friction points using advanced AI analytics, powering better collaboration and results.
           </p>
           <a
-            href="https://your-managerxai-demo-link.com" // IMPORTANT: Replace this with your Streamlit demo link later
+            href="https://your-orgsightxai-demo-link.com" // IMPORTANT: Replace this with your Streamlit demo link later
             target="_blank"
             rel="noopener noreferrer"
             className="bg-indigo-600 hover:bg-indigo-700 text-white text-lg font-semibold py-3 px-8 rounded-lg transition duration-300"
             onMouseEnter={() => setCtaText('Click to See Insights Now!')}
-            onMouseLeave={() => setCtaText('Explore ManagerXAI Demo')}
+            onMouseLeave={() => setCtaText('Explore OrgSightXAI Demo')}
           >
             {ctaText}
           </a>
@@ -80,7 +83,7 @@ export default function Home() {
             Modular Insights for Every Role (OrgSightXAI)
           </h2>
           <p className="text-xl text-gray-600 mb-12 text-center">
-            Choose the exact modules your team needs: from deep dive analytics to high-level strategic oversight.
+            Choose the exact Persona your team needs: from deep dive analytics to high-level strategic oversight.
           </p>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
