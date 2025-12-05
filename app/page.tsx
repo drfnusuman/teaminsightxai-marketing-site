@@ -53,10 +53,11 @@ export default function Home() {
       <section className="bg-white py-20 shadow-md">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h1 className="text-5xl font-extrabold text-gray-900 mb-4">
-            OrgSightXAI: Smarter Teams. Stronger Execution
+            OrgSightXAI: Smarter Teams Stronger Execution
           </h1>
           <p className="text-xl text-gray-600 mb-8">
             Transforming Team Performance with AI
+          <p className="text-xl text-gray-600 mb-8"></p>
             Our mission is to surface hidden productivity killers and team friction points using advanced AI analytics, powering better collaboration and results.
           </p>
           <a
