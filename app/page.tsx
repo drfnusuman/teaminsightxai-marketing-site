@@ -55,7 +55,7 @@ export default function Home() {
         <h1 className="text-5xl font-extrabold text-gray-900 mb-4">
                 OrgSightXAI
           </h1>
-        <h1 className="text-5xl font-extrabold text-gray-800 mb-4">
+        <h1 className="text-3xl font-extrabold text-gray-700 mb-4">
           Smarter Teams Stronger Execution
           </h1>
           <p className="text-xl text-gray-600 mb-8">
