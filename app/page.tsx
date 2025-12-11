@@ -75,48 +75,11 @@ export default function Home() {
           </a>
         </div>
       </section>
+      <p>
+        As we prepare for launch, we are keeping our product details private. 
+        Please check back soon for updates.
+      </p>
 
-      {/* 2. Modular Solution Section (REPLACES the old "Key Information Section") */}
-      <section className="py-20 bg-white">
-        <div className="max-w-7xl mx-auto px-4">
-          <h2 className="text-4xl font-bold text-gray-900 mb-4 text-center">
-            Modular Insights for Every Role (OrgSightXAI)
-          </h2>
-          <p className="text-xl text-gray-600 mb-12 text-center">
-            Choose the exact Persona your team needs: from deep dive analytics to high-level strategic oversight.
-          </p>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {/* Module 1: Team Manager */}
-            <div className="p-6 border-t-4 border-indigo-600 rounded-lg shadow-xl bg-gray-50">
-              <h3 className="text-2xl font-bold text-indigo-600 mb-2">Team Manager Module</h3>
-              <p className="text-gray-700 mb-3">Focus on individual and team velocity, recognizing bottlenecks and optimizing resource allocation within a single team.</p>
-              <p className="text-sm font-semibold text-gray-800">Persona Focus: Real-time action and team health.</p>
-            </div>
-            
-            {/* Module 2: Executive Module */}
-            <div className="p-6 border-t-4 border-red-600 rounded-lg shadow-xl bg-gray-50">
-              <h3 className="text-2xl font-bold text-red-600 mb-2">Executive Overview Module</h3>
-              <p className="text-gray-700 mb-3">High-level, cross-organizational visibility, tracking strategic KPIs, budget alignment, and identifying org-wide friction points.</p>
-              <p className="text-sm font-semibold text-gray-800">Persona Focus: Strategic planning and ROI.</p>
-            </div>
-
-            {/* Module 3: Admin Module */}
-            <div className="p-6 border-t-4 border-teal-600 rounded-lg shadow-xl bg-gray-50">
-              <h3 className="text-2xl font-bold text-teal-600 mb-2">Admin/HR Module</h3>
-              <p className="text-gray-700 mb-3">Focus on platform security, user permissions, compliance tracking, and organizational well-being metrics (e.g., burnout detection).</p>
-              <p className="text-sm font-semibold text-gray-800">Persona Focus: Governance and employee retention.</p>
-            </div>
-
-            {/* Module 4: Team Resources Module */}
-            <div className="p-6 border-t-4 border-yellow-600 rounded-lg shadow-xl bg-gray-50">
-              <h3 className="text-2xl font-bold text-yellow-600 mb-2">Team Resources Module</h3>
-              <p className="text-gray-700 mb-3">Provides self-service dashboards for teams to monitor their own efficiency, process metrics, and collaboration quality transparently.</p>
-              <p className="text-sm font-semibold text-gray-800">Persona Focus: Team autonomy and data literacy.</p>
-            </div>
-          </div>
-        </div>
-      </section>
       
       {/* 3. Contact Form Section (Uses the secure handleSubmit function) */}
       <section id="contact" className="bg-gray-100 py-16">
